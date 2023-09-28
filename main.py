@@ -13,3 +13,4 @@ def sum_array(arr):
 #arr = { 6, 2, 1, 8, 10 } 
 arr = { 1, 1, 11, 2, 3 }
 print("hello world")
+print("welocome to this library")
