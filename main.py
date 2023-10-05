@@ -10,3 +10,5 @@ def make_negative(number):
 print(make_negative(422))
 print(make_negative(9))
 print(make_negative(0))
+print("hello world")
+print("no")
