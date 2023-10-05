@@ -1,21 +1,12 @@
-def sum_array(arr):
-    #your code here
-    highest_number = max(arr)
-    lowest_number = min(arr)
-    total = 0
-    for number in arr:
-        if number < highest_number and number > lowest_number:
-            total = total + number
-            
-    return total
-
-
-#arr = { 6, 2, 1, 8, 10 } 
-arr = { 1, 1, 11, 2, 3 }
-print("hello world")
-print("hello world")
-
-
-print("hello world its me")
-
-print("welocome to this library")
+def make_negative(number):
+    if number >= 0:
+        new_no = number
+        new__no = new_no * 2
+        final_no = number - new__no
+        return final_no
+    else:
+        return number
+        
+print(make_negative(422))
+print(make_negative(9))
+print(make_negative(0))
