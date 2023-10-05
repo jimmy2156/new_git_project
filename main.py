@@ -10,4 +10,10 @@ def make_negative(number):
 print(make_negative(422))
 print(make_negative(9))
 print(make_negative(0))
+<<<<<<< HEAD
 print("hello world again")
+=======
+print("hello world")
+print("no")
+print("more changes")
+>>>>>>> new_branch
